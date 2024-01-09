@@ -1,3 +1,3 @@
-require("myname.remap")
+require("neovim-config.remap")
 --print("hello from myname")
 
