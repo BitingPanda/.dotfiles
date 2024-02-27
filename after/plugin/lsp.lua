@@ -27,7 +27,7 @@ require('mason-lspconfig').setup({
       require('lspconfig').lua_ls.setup(lua_opts)
       require('lspconfig').clangd.setup{} -- C/C++
       require('lspconfig').cmake.setup{} -- Cmake
-      require('lspconfig').grammerly.setup{} -- Markdown and others
+      require('lspconfig').grammarly.setup{} -- Markdown and others
       require('lspconfig').html.setup{} -- html
       require('lspconfig').pyright.setup{} -- html
       

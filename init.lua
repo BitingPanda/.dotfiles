@@ -14,6 +14,6 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 
 --colorscheme // Disabled for now
-vim.cmd("colorscheme kanagawa")
-vim.cmd("lua colorMyPencils()")
+--vim.cmd("colorscheme kanagawa")
+--vim.cmd("lua colorMyPencils()")
 
