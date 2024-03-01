@@ -1,3 +1,5 @@
 require("neovim-config.remap")
---print("hello from myname")
+
+-- Lazy
+require("neovim-config.lazy")
 

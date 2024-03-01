@@ -3,9 +3,11 @@ require("neovim-config")
 
 --For debugging
 	--print("hello")
-	
+
 --For calling LuaLine
 require('lualine').setup()
+
+
 
 -- Enable line numbering
 vim.opt.nu = true
