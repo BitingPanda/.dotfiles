@@ -24,7 +24,6 @@ Made This Config Using [Packer.Nvim](https://github.com/wbthomason/packer.nvim)
 - [Lsp Zero](https://github.com/VonHeikemen/lsp-zero.nvim)
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
-
 ## Version 2
 > Commit: 05ae3616aa53b65fa341784f85f84ed62613463c
 
@@ -36,3 +35,7 @@ Made This Configuration using [Lazy.Nvim](https://github.com/folke/lazy.nvim)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [Lsp Zero](https://github.com/VonHeikemen/lsp-zero.nvim)
 - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+
+
+
+---
