@@ -19,7 +19,7 @@ end)
 -- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guides/integrate-with-mason-nvim.md
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {'lua_ls', 'clangd', 'cmake','grammarly'},
+  ensure_installed = {'lua_ls', 'clangd', 'cmake'},
   handlers = {
     lsp_zero.default_setup,
     lua_ls = function()
@@ -27,7 +27,7 @@ require('mason-lspconfig').setup({
       require('lspconfig').lua_ls.setup(lua_opts)
       require('lspconfig').clangd.setup{} -- C/C++
       require('lspconfig').cmake.setup{} -- Cmake
-      require('lspconfig').grammarly.setup{} -- Markdown and others
+      require('lspconfig').marksman.setup{} -- Markdown and others
       require('lspconfig').html.setup{} -- html
       require('lspconfig').pyright.setup{} -- html
       

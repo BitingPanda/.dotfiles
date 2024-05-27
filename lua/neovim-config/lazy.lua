@@ -32,7 +32,28 @@ local plugins = {
 	{'hrsh7th/cmp-nvim-lsp'},
 	{'hrsh7th/nvim-cmp'},
 	{'L3MON4D3/LuaSnip'},
-};
+	-- for :MasonUpdateAll
+	{'RubixDev/mason-update-all'},
+
+	-- for dap
+	--{'jayp0521/mason-nvim-dap.nvim'},
+	-- dapui
+	--{ "rcarriga/nvim-dap-ui", dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"} },
+
+
+
+	--Vim Be good
+	{'ThePrimeagen/vim-be-good'},
+
+	-- Markdown Preview
+	{
+		"iamcco/markdown-preview.nvim",
+		cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+		ft = { "markdown" },
+		build = function() vim.fn["mkdp#util#install"]() end,
+	}
+
+}
 
 
 -- Options
@@ -42,6 +63,6 @@ local opts = {};
 -----------------------------------------------------------------------------
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup(plugins, opts)
-
+require("mason").setup()
 -----------------------------------------------------------------------------
 

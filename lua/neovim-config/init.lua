@@ -1,5 +1,5 @@
 require("neovim-config.remap")
 
--- Lazy
+-- Lazy plugin manager
 require("neovim-config.lazy")
 
